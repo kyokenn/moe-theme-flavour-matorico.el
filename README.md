@@ -1,7 +1,7 @@
-Emacs - Moe theme - Matorico flavour
-====================================
+Emacs - Moe theme (dark) - Matorico flavour
+===========================================
 
-Matorico flavour for [Moe theme](https://github.com/kuanyui/moe-theme.el)
+**Matorico flavour** for [Moe theme](https://github.com/kuanyui/moe-theme.el) (dark version)
 
 Based on:
 * Material colors
