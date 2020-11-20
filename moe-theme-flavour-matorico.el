@@ -184,6 +184,7 @@
     `(py-decorators-face ((t (:foreground ,moe-dark-type :bold t))))
     `(py-variable-name-face ((t (:foreground ,moe-dark-variable-name))))
     `(py-number-face ((t (:foreground ,moe-dark-constant))))
+    `(py-pseudo-keyword-face ((t (:foreground ,moe-dark-constant))))
 
     ;; make keywords bold
     `(font-lock-keyword-face ((t (:foreground ,moe-dark-keyword :bold t))))
@@ -194,6 +195,12 @@
     `(compilation-mode-line-exit ((t (:background nil :foreground ,mat-white :bold t))))  ;; mode-line :exit [0]
     `(compilation-error ((t (:background nil :foreground ,mat-white :bold t))))  ;; mode-line [X 0 0]
     `(compilation-info ((t (:background nil :foreground ,mat-white :bold t))))  ;; mode-line [0 0 X]
+
+    ;; ivy
+   `(ivy-minibuffer-match-face-1 ((t (:background nil :foreground ,mat-light-blue-500 :bold t))))
+   `(ivy-minibuffer-match-face-2 ((t (:background nil :foreground ,mat-light-green-500 :bold t))))
+   `(ivy-minibuffer-match-face-3 ((t (:background nil :foreground ,mat-pink-500 :bold t))))
+   `(ivy-minibuffer-match-face-4 ((t (:background nil :foreground ,mat-purple-500 :bold t))))
 
     ;; mode-line styles used by powerline
     `(mode-line-buffer-id ((t (:background nil :foreground ,mat-white))))
