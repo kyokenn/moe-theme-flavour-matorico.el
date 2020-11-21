@@ -33,3 +33,8 @@ Installation
 (require 'moe-theme-flavour-matorico)
 (moe-theme-flavour-matorico)
 ```
+
+Screenshots
+-----------
+
+![1](/screenshots/1.png)
